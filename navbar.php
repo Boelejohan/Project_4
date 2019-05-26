@@ -17,7 +17,7 @@
                       <a class="nav-link" href="./index.php?content=home">Home<span class="sr-only">(current)</span></a>
                     </li> 
                     <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=change_userrole">Gebruikersrol</a>
+                      <a class="nav-link" href="./change_userrole.php">Userrole</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="./index.php?content=oefeningen">Exercises</a>
@@ -28,7 +28,7 @@
                       <a class="nav-link" href="./index.php?content=home">Home<span class="sr-only">(current)</span></a>
                     </li> 
                     <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=change_userrole">Gebruikersrol</a>
+                      <a class="nav-link" href="./change_userrole.php">Userrole</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="./index.php?content=oefeningen">Exercises</a>

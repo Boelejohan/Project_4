@@ -7,7 +7,7 @@
 
   if ( empty($_POST["email"])) {
     echo '<div class="alert alert-light" role="alert">U heeft geen e-mailadres ingevoerd. Dit is een verplicht veld. Probeer het nogmaals</div>';
-    header("Refresh: 3; url=./index.php?content=register_form");
+    header("Refresh: 3; url=./index.php?content=register");
   } else {
 
   $sql = "SELECT * FROM `login` WHERE `email` = '$email'";
@@ -16,7 +16,7 @@
 
   if ( mysqli_num_rows($result) == 1 ) {
       echo '<div class="alert alert-warning" role="alert">Bestaat al</div>';
-      header("Refresh: 3; ./index.php?content=register_form");
+      header("Refresh: 3; ./index.php?content=register");
   } else {
 
     date_default_timezone_set("Europe/Amsterdam");
@@ -47,7 +47,7 @@
                   <head>
                     <style>
                       body {
-                        background-color: powderblue;
+                        background-color: powdergreen;
                       }
                     </style>
                   </head>
@@ -73,7 +73,7 @@
     header("Refresh: 4; url=./index.php?content=login");
   } else {
     echo '<div class="alert alert-danger" role="alert">Er is iets misgegaan tijdens het registreren probeer het nogmaals</div>';
-    header("Refresh: 4; url=./index.php?content=register_form");
+    header("Refresh: 4; url=./index.php?content=register");
   }
  }
 }

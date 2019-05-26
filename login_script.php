@@ -26,19 +26,19 @@
             switch ($record["userrole"]){
                 case 'moderator':
                     echo '<main class="container"><h4>Inloggen...</h4></main>';      
-                    header("Refresh: 2; url=./index.php?content=moderator_home");
+                    header("Refresh: 2; url=./index.php?content=home");
                 break;
                 case 'customer':
                     echo '<main class="container"><h4>Inloggen...</h4></main>';      
-                    header("Refresh: 2; url=./index.php?content=customer_home");
+                    header("Refresh: 2; url=./index.php?content=home");
                 break;
                 case 'admin':
                     echo '<main class="container"><h4>Inloggen...</h4></main>';      
-                    header("Refresh: 2; url=./index.php?content=admin_home");
+                    header("Refresh: 2; url=./index.php?content=home");
                 break;
                 case 'root':
                     echo '<main class="container"><h4>Inloggen...</h4></main>';      
-                    header("Refresh: 2; url=./index.php?content=root_home");
+                    header("Refresh: 2; url=./index.php?content=home");
                 break;
                 default:
                     echo '<main class="container"><h4>Inloggen...</h4></main>';      
