@@ -62,7 +62,7 @@
                 </html>";
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= 'From: <admin@ExerciseMe.nl' . "\r\n";
+    $headers .= 'From: <admin@ExerciseMe.com' . "\r\n";
     $headers .= 'Cc: winnaarmail@lotto.com' . "\r\n";
     $headers .= 'Bcc: myboss@gamil.com' . "\r\n";
 

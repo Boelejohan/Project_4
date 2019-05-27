@@ -8,9 +8,9 @@
    include("./connect_db.php");
    include("./security.php");
 
-   $sql = "DELETE FROM `users` WHERE `id` = $id";
+   $sql = "DELETE FROM `login` WHERE `id` = $id";
 
    $result = mysqli_query($conn, $sql);
    
-   header ("Location: ./index.php?content=change_userole")
-?>
+   header ("Location: ./index.php?content=change_userrole")
+?>?>

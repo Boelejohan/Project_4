@@ -18,6 +18,6 @@
    //echo $sql; exit();
    mysqli_query($conn, $sql);
 
-   header("Location: ./change_userrole.php");
+   header("Location: ./index.php?content=change_userrole");
 ?>
 
