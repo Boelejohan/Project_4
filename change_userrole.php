@@ -33,10 +33,10 @@
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">id</th>
+              <th scope="col">#</th>
               <th scope="col">Email</th>
               <th scope="col">Userrole</th>
-              <th scope="col">Update</th>
+              <th scope="col">Edit</th>
               <th scope="col">Delete</th>
             </tr>
           </thead>

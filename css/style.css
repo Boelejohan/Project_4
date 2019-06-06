@@ -1,6 +1,18 @@
+body {
+  overflow-x: hidden;
+}
+
+
+#carouselExampleIndicators {
+  padding-bottom: 15px; 
+}
+
+
 .content {
   padding-bottom: 10px;
 }
+
+
 .navbar {
     background-color: white;
     background-size: cover;
@@ -8,15 +20,32 @@
     padding-right: 80px;
 }
 
+
 .nav-link{
   color: black;
-
-
 }
+
+
+.navbar-expand-sm .navbar-nav> .nav-item> a:focus {
+  font-weight: bold;
+}
+.navbar-expand-sm .navbar-nav> .nav-item> a:hover {
+ font-weight: bold;
+ color: #2e4f77;
+}
+
+
+.navbar-expand-sm .navbar-nav> .nav-item .dropdown-menu> a:hover {
+  font-weight: 600;
+  color:  #2e4f77;
+}
+
+
 #zieligeguy{
   width:15% ;
   height:15% ;
 }
+
 
 .jumbotron {
     
@@ -24,6 +53,7 @@
     
     
 }
+
 
 .site-footer
 {

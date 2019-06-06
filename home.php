@@ -23,7 +23,14 @@
 <main class="container">
     <div class="row">
         <div class="col-6">
-            <p>ExerciseMe is een website voor mensen die gezonder willen leven. Op deze website is informatie te vinden over oefeningen en voeding.</p>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">ExerciseMe</h5>
+                    <p class="card-text">Op deze website is informatie te vinden over oefeningen en voeding.</p>
+                    <a href="Index.php?content=oefeningen" class="card-link">Exercises</a>
+                    <a href="#" class="card-link">Nutrition</a>
+                </div>
+            </div>
         </div>
         <div class="col-6">
             <img src="" alt="foto">

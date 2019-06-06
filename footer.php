@@ -12,6 +12,7 @@
           <h6>Links</h6>
           <ul class="footer-links">
             <li><a href="./index.php">Homepagina</a></li>
+            <li><a href="./index.php?content=contact">Contact</a></li>
             <li><a href="./index.php?content=login">Login</a></li>
             <li><a href="./index.php?content=registratie">Register</a></li>
           </ul>
