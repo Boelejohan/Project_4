@@ -23,12 +23,11 @@
 <main class="container">
     <div class="row">
         <div class="col-6">
-            <div class="card" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">ExerciseMe</h5>
-                    <p class="card-text">Op deze website is informatie te vinden over oefeningen en voeding.</p>
-                    <a href="Index.php?content=oefeningen" class="card-link">Exercises</a>
-                    <a href="#" class="card-link">Nutrition</a>
+                    <p class="card-text">Deze website is voor mensen die willen beginnen met transliterator_transliterate. Er staan op deze website kleine workouts + uitleg over de oefeningen.</p>
+                    <a href="Index.php?content=Workouts" class="card-link">Workouts</a>
                 </div>
             </div>
         </div>

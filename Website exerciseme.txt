@@ -1,0 +1,28 @@
+workouts checklist -> database
+
+account -> daily progress tabel met de checklist
+
+workouts
+   |
+   v
+
+oefeningen  lvl's
+
+Pull:
+- pull ups
+- body rows
+- chin ups
+
+Push:
+- push ups variation
+- dips 
+
+Legs:
+- squats
+- box jumps
+- calves raises
+- bridges
+
+Abs:
+- leg raises
+- knee raises

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Exercise me</title>
@@ -30,8 +32,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12"> 
-            <?php include("./footer.php"); ?>
+        <div class="col-12">
+                <?php include("./footer.php"); ?>
         </div>
     </div>
 
