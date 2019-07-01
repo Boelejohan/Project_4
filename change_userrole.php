@@ -15,7 +15,7 @@
  
   $records .= "<tr> 
   <th scope='row'>" . $record["id"] . "</th>
-  <th scope='row'>" . $record["email"] . "</th>
+  <td>" . $record["email"] . "</td>
   <td>" . $record["userrole"] . "</td>
   <td> 
   <a href='./update.php?id=" . $record['id'] . "'> 

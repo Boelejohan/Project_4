@@ -11,6 +11,6 @@
         <input type="password" class="form-control" id="InputPassword" placeholder="Password" name="password">
     </div>
 
-    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
 </form>
 </main>

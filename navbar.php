@@ -20,11 +20,8 @@
                       <a class="nav-link" href="./index.php?content=change_userrole">Userrole</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=Workouts">Workouts</a>
-                    </li> 
-                    <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=contact">Contact</a>
-                    </li> ';
+                      <a class="nav-link" href="./index.php?content=exercises">Oefeningen</a>
+                    </li>  ';
             break;
             case 'root':
               echo '<li class="nav-item active">
@@ -34,10 +31,7 @@
                       <a class="nav-link" href="./index.php?content=change_userrole">Userrole</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=Workouts">Workouts</a>
-                    </li> 
-                    <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=contact">Contact</a>
+                      <a class="nav-link" href="./index.php?content=exercises">Oefeningen</a>
                     </li> ';
             break;
             case 'moderator':
@@ -45,10 +39,7 @@
                       <a class="nav-link" href="./index.php?content=home">Home<span class="sr-only">(current)</span></a>
                     </li> 
                     <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=Workouts">Workouts</a>
-                    </li> 
-                    <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=contact">Contact</a>
+                      <a class="nav-link" href="./index.php?content=exercises">Oefeningen</a>
                     </li> ';
             break;
             case 'customer':
@@ -56,10 +47,7 @@
                       <a class="nav-link" href="./index.php?content=home">Home<span class="sr-only">(current)</span></a>
                     </li> 
                     <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=Workouts">Workouts</a>
-                    </li> 
-                    <li class="nav-item">
-                      <a class="nav-link" href="./index.php?content=contact">Contact</a>
+                      <a class="nav-link" href="./index.php?content=exercises">Oefeningen</a>
                     </li> ';
           break;
             default:
@@ -81,11 +69,8 @@
                   <a class="nav-link" href="./index.php?content=home">Home<span class="sr-only">(current)</span></a>
                 </li>    
                 <li class="nav-item">
-                  <a class="nav-link" href="./index.php?content=Workouts">Workouts</a>
-                </li> 
-                <li class="nav-item">
-                  <a class="nav-link" href="./index.php?content=contact">Contact</a>
-                </li>      
+                  <a class="nav-link" href="./index.php?content=exercises">Oefeningen</a>
+                </li>    
                 <li class="nav-item">
                   <a class="nav-link" href="./index.php?content=register">Register</a>
                 </li> 
